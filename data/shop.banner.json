@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "659a087ad0c00b18fe6e0e44"
+  },
+  "img_banner": "products/logo-new.png",
+  "featured": false,
+  "category": "Logo",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:12:10.996Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:12:10.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a088fd0c00b18fe6e0e5b"
+  },
+  "img_banner": "products/banner.jpg",
+  "featured": false,
+  "category": "Banner",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:12:31.582Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:12:31.582Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a0899d0c00b18fe6e0e6c"
+  },
+  "img_banner": "products/banner2.jpg",
+  "featured": false,
+  "category": "Banner",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:12:41.912Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:12:41.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a08a2d0c00b18fe6e0e7d"
+  },
+  "img_banner": "products/banner3.jpg",
+  "featured": false,
+  "category": "Banner",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:12:50.724Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:12:50.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a08b9d0c00b18fe6e0e94"
+  },
+  "img_banner": "products/slider.jpg",
+  "featured": false,
+  "category": "Slider",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:13:13.806Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:13:13.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a08c2d0c00b18fe6e0ea5"
+  },
+  "img_banner": "products/slider2.jpg",
+  "featured": false,
+  "category": "Slider",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:13:22.122Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T05:51:28.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a08cad0c00b18fe6e0eb6"
+  },
+  "img_banner": "products/slider3.jpg",
+  "featured": false,
+  "category": "Slider",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:13:30.156Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:13:30.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a08d3d0c00b18fe6e0ec7"
+  },
+  "img_banner": "products/slider-4.jpg",
+  "featured": true,
+  "category": "Slider",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:13:39.408Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T05:51:30.667Z"
+  },
+  "__v": 0
+}]

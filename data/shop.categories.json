@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "659668a73651a01924b59189"
+  },
+  "title": "Truyện tranh",
+  "slug": "truyen-tranh",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-04T08:13:27.807Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-04T08:13:27.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a090cd0c00b18fe6e0efc"
+  },
+  "title": "Truyện kinh dị",
+  "slug": "truyen-kinh-di",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:14:36.501Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:14:36.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659a091ad0c00b18fe6e0f0e"
+  },
+  "title": "Tiểu thuyết",
+  "slug": "tieu-thuyet",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-01-07T02:14:50.130Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-07T02:14:50.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ff8f67ff653f07ee142a3c"
+  },
+  "title": "Sách kinh tế",
+  "slug": "sach-kinh-te",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-03-24T02:26:47.940Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T05:32:52.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664c32c4aa8fe1325f298321"
+  },
+  "title": "Thiếu nhi",
+  "slug": "thieu-nhi",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2024-05-21T05:36:04.823Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-04T13:10:14.400Z"
+  },
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2024-06-04T13:10:14.397Z"
+  }
+}]

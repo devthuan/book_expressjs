@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "65d96656028902720c3d1404"
+  },
+  "email": "admin@gmail.com",
+  "password": "$2a$10$VBLTh86HmpsX7kTJ/Tnh5.HAsfWsyWzd5BvrLyaQTnuwMvDSf834a",
+  "fullName": "admin",
+  "role": "Admin",
+  "isLocked": false,
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-02-24T03:45:26.080Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T14:06:56.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ffe1bbe72b5c4cff499db8"
+  },
+  "email": "duonghoang123@gmail.com",
+  "password": "$2a$10$xqIvnujn1xyCyQ0rMOh44eqQgAi0cr.7XWmohWxPp6OwCJvPqCyFe",
+  "fullName": "dương hoàng",
+  "role": "Member",
+  "isLocked": false,
+  "createdAt": {
+    "$date": "2024-03-24T08:18:03.728Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-05T13:00:38.726Z"
+  },
+  "__v": 0,
+  "deleted": false
+}]

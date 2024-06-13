@@ -1,0 +1,231 @@
+[{
+  "_id": {
+    "$oid": "665eb3de0fa3c21452ae3143"
+  },
+  "userSiteId": "65ffe1bbe72b5c4cff499db8",
+  "fullNameSite": "dương hoàng",
+  "name": "Nguyễn Hoàng Dương",
+  "phone": "12345678",
+  "mail": "duongga6xxx@gmail.com",
+  "address": "Phú Thọ",
+  "status": "Đã giao hàng",
+  "totalPrice": 201000,
+  "payment": "thanh toán khi nhận hàng",
+  "items": [
+    {
+      "id": "665eaff107b099566a3d9a26",
+      "name": "Dragon Ball SD - 7 Viên Ngọc Rồng Nhí - Tập 2",
+      "author": "Akira Toriyama  ",
+      "cat_id": "Truyện tranh",
+      "price": 75000,
+      "salePrice": 75000,
+      "img": "products/dragon-ball-sd-7-vien-ngoc-rong-nhi-tap-2.jpg",
+      "qty": 2,
+      "quantity": 33
+    },
+    {
+      "id": "665eb1ecfde9ee89029dfc5d",
+      "name": "Bác Sĩ Và Đao Phủ",
+      "author": "Vương Vũ Chấn",
+      "cat_id": "Truyện kinh dị",
+      "price": 20000,
+      "salePrice": 17000,
+      "img": "products/bac-si-va-dao-phu_39768_1.gif",
+      "qty": 3,
+      "quantity": 27
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-04T06:27:42.357Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-04T13:29:14.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66604094aab2053bf02ae48b"
+  },
+  "userSiteId": "65ffe1bbe72b5c4cff499db8",
+  "fullNameSite": "dương hoàng",
+  "name": "Nguyễn Hoàng Dương",
+  "phone": "12345678",
+  "mail": "duongga6xxx@gmail.com",
+  "address": "Phú Thọ",
+  "status": "Đã giao hàng",
+  "totalPrice": 221000,
+  "payment": "thanh toán khi nhận hàng",
+  "items": [
+    {
+      "id": "665eb111fde9ee89029dfb24",
+      "name": "Những Miền Linh Dị - Tập 1: Thái Lan",
+      "author": "Dương Hành Triệt  ",
+      "cat_id": "Truyện kinh dị",
+      "price": 130000,
+      "salePrice": 110500,
+      "img": "products/nhung-mien-linh-di-tap-1-thai-lan_76046_1.jpg",
+      "qty": 2,
+      "quantity": 28
+    }
+  ],
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-06-05T10:40:20.677Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-05T10:40:32.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666147850957cc88d515e74b"
+  },
+  "userSiteId": "65ffe1bbe72b5c4cff499db8",
+  "fullNameSite": "dương hoàng",
+  "name": "Nguyễn Hoàng Dương",
+  "phone": "0356140002",
+  "mail": "duongga6xxx@gmail.com",
+  "address": "Phú Thọ",
+  "status": "Đã giao hàng",
+  "totalPrice": 243500,
+  "payment": "thanh toán khi nhận hàng",
+  "items": [
+    {
+      "id": "665eaf2f2553162281cbbd34",
+      "name": "Dragon Ball SD - 7 Viên Ngọc Rồng Nhí - Tập 3",
+      "author": "Akira Toriyama  ",
+      "cat_id": "Truyện tranh",
+      "price": 75000,
+      "salePrice": 75000,
+      "img": "products/dragon-ball-sd-7-vien-ngoc-rong-nhi-tap-3-dung-do-red-ribbon_130082_1.jpg",
+      "qty": 2,
+      "quantity": 38
+    },
+    {
+      "id": "665f16014d871884372d5719",
+      "name": "NO.6 - Tập 3 (Tiểu Thuyết)",
+      "author": "Asano Atsuko  ",
+      "cat_id": "Tiểu thuyết",
+      "price": 55000,
+      "salePrice": 46750,
+      "img": "products/no-6-tap-3-tieu-thuyet-_74835_1.jpg",
+      "qty": 2,
+      "quantity": 18
+    }
+  ],
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-06-06T05:22:13.017Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-06T05:22:27.443Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6662c91b6029c8e25b3b4f73"
+  },
+  "userSiteId": "65ffe1bbe72b5c4cff499db8",
+  "fullNameSite": "dương hoàng",
+  "name": "Nguyễn Hoàng Dương",
+  "phone": "0356140002",
+  "mail": "duong@gmail.com",
+  "address": "khu 16-xã Ngọc Lập-huyện Yên Lập-tỉnh Phú Thọ",
+  "status": "Đã giao hàng",
+  "totalPrice": 225000,
+  "payment": "thanh toán khi nhận hàng",
+  "items": [
+    {
+      "id": "665eaff107b099566a3d9a26",
+      "name": "Dragon Ball SD - 7 Viên Ngọc Rồng Nhí - Tập 2",
+      "author": "Akira Toriyama  ",
+      "cat_id": "Truyện tranh",
+      "price": 75000,
+      "salePrice": 75000,
+      "img": "products/dragon-ball-sd-7-vien-ngoc-rong-nhi-tap-2.jpg",
+      "qty": 3,
+      "quantity": 30
+    }
+  ],
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-06-07T08:47:23.762Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T08:47:34.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6662c96e6029c8e25b3b50d9"
+  },
+  "userSiteId": "65ffe1bbe72b5c4cff499db8",
+  "fullNameSite": "dương hoàng",
+  "name": "Nguyễn Hoàng Dương",
+  "phone": "0356140002",
+  "mail": "duong@gmail.com",
+  "address": "khu 16-xã Ngọc Lập-huyện Yên Lập-tỉnh Phú Thọ",
+  "status": "Đã giao hàng",
+  "totalPrice": 225000,
+  "payment": "thanh toán khi nhận hàng",
+  "items": [
+    {
+      "id": "665eaf2f2553162281cbbd34",
+      "name": "Dragon Ball SD - 7 Viên Ngọc Rồng Nhí - Tập 3",
+      "author": "Akira Toriyama  ",
+      "cat_id": "Truyện tranh",
+      "price": 75000,
+      "salePrice": 75000,
+      "img": "products/dragon-ball-sd-7-vien-ngoc-rong-nhi-tap-3-dung-do-red-ribbon_130082_1.jpg",
+      "qty": 3,
+      "quantity": 35
+    }
+  ],
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-06-07T08:48:46.739Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T08:49:00.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6662cadb6029c8e25b3b52e9"
+  },
+  "userSiteId": "65ffe1bbe72b5c4cff499db8",
+  "fullNameSite": "dương hoàng",
+  "name": "Nguyễn Hoàng Dương",
+  "phone": "0356140002",
+  "mail": "duong123@gmail.com",
+  "address": "khu 16-xã Ngọc Lập-huyện Yên Lập-tỉnh Phú Thọ",
+  "status": "Đã giao hàng",
+  "totalPrice": 34000,
+  "payment": "thanh toán khi nhận hàng",
+  "items": [
+    {
+      "id": "665eb1ecfde9ee89029dfc5d",
+      "name": "Bác Sĩ Và Đao Phủ",
+      "author": "Vương Vũ Chấn",
+      "cat_id": "Truyện kinh dị",
+      "price": 20000,
+      "salePrice": 17000,
+      "img": "products/bac-si-va-dao-phu_39768_1.gif",
+      "qty": 2,
+      "quantity": 25
+    }
+  ],
+  "deleted": false,
+  "createdAt": {
+    "$date": "2024-06-07T08:54:51.421Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T08:55:01.653Z"
+  },
+  "__v": 0
+}]

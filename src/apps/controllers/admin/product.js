@@ -108,7 +108,7 @@ const store = async (req, res) => {
     slug: slug(name),
   };
 
-  if(product.sale <=100) {
+  if (product.sale <= 100) {
     product.salePrice = product.price - (product.sale * product.price) / 100;
   } else {
     product.salePrice = product.price - product.sale;
@@ -120,7 +120,7 @@ const store = async (req, res) => {
     const thumbnail = "products/" + file.originalname;
     fs.renameSync(file.path, path.resolve("src/public/images", thumbnail));
     product["thumbnail"] = thumbnail;
-    await productModel.create(product)
+    await productModel.create(product);
     req.flash("success", "Thêm thành công !");
     res.redirect("/admin/product");
   }
@@ -174,7 +174,7 @@ const update = async (req, res) => {
   if (product.name !== products.name) {
     //kiem tra xem san pham da ton tai chua
     const isCheck = await productModel.findOne({
-      slug: slug(name)
+      slug: slug(name),
     });
 
     if (isCheck) {
@@ -187,12 +187,12 @@ const update = async (req, res) => {
     product["thumbnail"] = thumbnail;
   }
 
-  if(product.sale <=100) {
+  if (product.sale <= 100) {
     product.salePrice = product.price - (product.sale * product.price) / 100;
   } else {
     product.salePrice = product.price - product.sale;
   }
-  
+
   await productModel.findByIdAndUpdate(id, product);
   req.flash("success", "Cập nhật thành công !");
   res.redirect("/admin/product");
@@ -279,8 +279,8 @@ const restock = (req, res) => {
   const { new_quantity } = req.body;
 
   const newPurchase = {
-    date: new Date(), 
-    quantity: new_quantity, 
+    date: new Date(),
+    quantity: new_quantity,
   };
 
   productModel.findByIdAndUpdate(
@@ -288,8 +288,8 @@ const restock = (req, res) => {
     {
       $push: { purchaseHistory: newPurchase },
       $inc: { quantity: newPurchase.quantity },
-    }, 
-    { new: true, useFindAndModify: false }, 
+    },
+    { new: true, useFindAndModify: false },
     (err, updatedProduct) => {
       if (err) {
         req.flash("success", "Lỗi khi cập nhật sản phẩm !");

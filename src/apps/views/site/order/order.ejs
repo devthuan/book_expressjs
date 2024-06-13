@@ -24,8 +24,24 @@
                                     <input name="phone" type="text" class="form-control" placeholder="Số điện thoại..." required>
                                 </div>
     
+                                <div class="customer-name ">
+                                    <select id="provinceItem" class="form-control mb-3" name="province" required>
+                                        <option value="">Chọn tỉnh, thành phố</option>
+                                    </select>
+                                </div>
                                 <div class="customer-name">
-                                    <input name="address" type="text" class="form-control" placeholder="Địa chỉ..." required>
+                                    <select id="districtItem" class="form-control mb-3" name="district" required>
+                                        <option value="">Chọn quận, huyện</option>
+                                    </select>
+                                </div>
+                                <div class="customer-name">
+                                    <select id="villageItem" class="form-control" name="village" required>
+                                        <option value="">Chọn phường, xã</option>
+                                    </select>
+                                </div>
+                                <div class="customer-name">
+                                    <input name="apartment_number" type="text" class="form-control" placeholder="Số nhà và tên đường..." required>
+
                                 </div>
     
                                 <div class="customer-name">
@@ -81,6 +97,67 @@
             </div>
         </div>
     </div>
+
+    <script>
+        
+        const province = document.getElementById("provinceItem");
+        const district = document.getElementById("districtItem");
+        const village = document.getElementById("villageItem");
+
+        const myHeaders = new Headers();
+        myHeaders.append("Cookie", "PHPSESSID=bd250eb101bc82e82caeceabdb436600");
+
+        const requestOptions = {
+            method: "GET",
+            headers: myHeaders,
+            redirect: "follow"
+        };
+ 
+        fetch("https://esgoo.net/api-tinhthanh/1/0.htm", requestOptions)
+            .then((response) => response.json())
+            .then((result) => {
+               
+                result.data.map((data) => {
+                     province.innerHTML += `<option value="${data.id}">${data.full_name}</option>`; 
+                })
+            }) 
+            .catch((error) => console.error(error));
+            
+        province.addEventListener('change', (event) => {
+            district.innerHTML = '<option value="">Chọn quận, huyện</option>';
+            village.innerHTML = '<option value="">Chọn phường, xã</option>';
+
+            let provinceId = province.value;
+            fetch(`https://esgoo.net/api-tinhthanh/2/${provinceId}.htm`, requestOptions)
+            .then((response) => response.json())
+            .then((result) => { 
+                result.data.map((data) => {
+                        district.innerHTML += `<option value="${data.id}">${data.full_name}</option>`; 
+                })
+            }) 
+            .catch((error) => console.error(error));
+        })
+            
+        district.addEventListener('change', (event) => {
+             village.innerHTML = '<option value="">Chọn phường, xã</option>';
+            let districtId = district.value;
+            fetch(`https://esgoo.net/api-tinhthanh/3/${districtId}.htm`, requestOptions)
+            .then((response) => response.json())
+            .then((result) => { 
+                result.data.map((data) => {
+                        village.innerHTML += `<option value="${data.id}">${data.full_name}</option>`; 
+                })
+            }) 
+            .catch((error) => console.error(error));
+        })
+
+
+
+
+           
+
+
+    </script>
 
     <%- include("../layout/footer")%>
 </body>
